@@ -5,7 +5,7 @@ RUN apt-get update \
         python3 \
         python3-pip \
         python3-dev \
-    && rm-rf /var/lib/apt/lists/* \
+    && rm -rf /var/lib/apt/lists/* \
     && pip3 install --no-cache-dir \
         boto3 \
         click
